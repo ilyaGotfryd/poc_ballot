@@ -102,3 +102,7 @@ ENV/
 
 # NPM packages
 app/static/node_modules/**
+
+# virtual env
+app/ballot_poc/**
+
