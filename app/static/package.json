@@ -1,0 +1,26 @@
+{
+  "name": "ballot_poc",
+  "version": "1.0.0",
+  "description": "list of libraries necessary for ballot poc deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ilyaGotfryd/poc_ballot.git"
+  },
+  "keywords": [
+    "ballot",
+    "poc"
+  ],
+  "author": "ilya gotfryd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilyaGotfryd/poc_ballot/issues"
+  },
+  "homepage": "https://github.com/ilyaGotfryd/poc_ballot#readme",
+  "dependencies": {
+    "handlebars": "^4.0.10"
+  }
+}

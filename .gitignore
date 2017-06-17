@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# NPM packages
+app/static/node_modules/**
