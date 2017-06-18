@@ -1,0 +1,18 @@
+{{#each domains}}
+<div class='jumbotron'><h1 class='ballot-domain-name'>{{name}}</h1></div>
+{{#each ballotItems}}
+<div class='row'>
+  <div class='col-md-12'><h2 class='ballot-item-title'>{{itemTitle}}</h2>
+    <h3 class='item-type-description'>{{itemTypeDescription}}</h3>
+    <div class='ballot-item-ditail-description'>{{itemDitailDescription}}</div>
+    <ul class='list-group'>
+      {{#each itemDirections}}
+        <li class='list-group-item ballot-item-directions'>{{directions}}</li>
+      {{/each}}
+    </ul>
+
+    <div class='ballot-item-form'>SELECTION ITEMS GO HERE</div>
+  </div>
+</div>
+{{/each}}
+{{/each}}

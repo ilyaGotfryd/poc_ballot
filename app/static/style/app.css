@@ -1,0 +1,13 @@
+.ballot-domain-name{
+  text-transform: uppercase;
+}
+.ballot-item-title{
+  text-transform: uppercase;
+}
+.item-type-description{
+  text-transform: uppercase;
+}
+.ballot-item-ditail-description
+{
+  text-transform: capitalize;
+}
